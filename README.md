@@ -63,6 +63,8 @@ developing your own process.
 - Add a new toy when the toy form is submitted
 
   - How I debugged:
+    went from: toy = Toys.create(toy_params)
+    to: toy = Toy.create!(toy_params)
 
 - Update the number of likes for a toy
 
